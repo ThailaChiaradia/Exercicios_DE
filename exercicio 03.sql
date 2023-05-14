@@ -1,0 +1,5 @@
+SELECT * FROM Aluno
+UNION
+SELECT * FROM Responsavel
+UNION
+SELECT * FROM Parentesco;
