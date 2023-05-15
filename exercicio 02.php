@@ -1,5 +1,4 @@
 <?php
-$arrayDeClientes a data de nascimento de cada cliente.
 
 $arrayDeNascimento = [
 'Francisco Souza' => '10-12-1996',
@@ -30,6 +29,6 @@ $arrayDeClientes = [$cliente1, $cliente2, $cliente3, $cliente4];
 
 foreach ($arrayDeClientes as $cliente) 
 {
-    echo "Nome: " + $cliente->nome + "<br> Nascimento: " + $cliente->nascimento + "<br><br>";
+    echo "Nome: " . $cliente->nome . "<br> Nascimento: " . $cliente->nascimento . "<br><br>";
 }
 ?>
