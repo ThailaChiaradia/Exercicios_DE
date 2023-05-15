@@ -36,6 +36,6 @@ usort($arrayDeClientes, function($x, $y)
 
 foreach ($arrayDeClientes as $cliente) 
 {
-    echo "Nome: " . $cliente->nome . "<br> Nascimento: " . $cliente->nascimento . "<br><br>";
+    echo $cliente->nome . " nascido em " . $cliente->nascimento . "<br><br>";
 }
 ?>
